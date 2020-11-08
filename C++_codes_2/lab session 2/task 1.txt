@@ -1,0 +1,13 @@
+MULTI LINE COMMENT:
+
+1.Starts with /* and ends with */.
+2.All Words and Statements written between /* and */ are ignored.
+3.Comment ends when */ Occures.
+4.e.g /* This is Multiline Comment */
+
+SINGLE LINE COMMENTS:
+
+1.Starts with //.
+2.Statements after the symbol // upto the end of line are ignored.
+3.Comment Ends whenever ENTER is Pressed and New Line Starts.
+4.e.g // Single line Comment.

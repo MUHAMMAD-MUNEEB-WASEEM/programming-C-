@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1564225463 source:c:\users\abc\desktop\codeblocks\2x2 matrix multiplication\main.cpp
+	<stdio.h>
+	<iomanip>
+

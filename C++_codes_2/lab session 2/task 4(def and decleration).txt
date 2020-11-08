@@ -1,0 +1,6 @@
+Declaration of a variable in C means that the variable is only declared and allocated a block of memory but still has no value. Definition of a variable means to assign or initialize it with some specific value.
+
+For example:
+
+int a; //declaration
+int i = 1; //definition 

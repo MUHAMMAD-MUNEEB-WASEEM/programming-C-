@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,n;
+    cout<<"Enter no of rows:";
+    cin>>n;
+    for(i=1;i<=n;i++)//fig1
+    {
+        for(j=1;j<=i;j++)
+        {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }//end of fig 1
+    cout<<"\n";
+    for(i=1;i<=n;i++)//fig2
+    {
+        for(j=i;j<=n;j++)
+        {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }//end of fig 2
+
+    cout<<"\n";
+    for(i=1;i<=n;i++)//fig4
+    {
+        for(j=i;j<=n-1;j++)
+        {
+            cout<<" ";
+        }
+        for(j=1;j<=i;j++)
+        {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }//end of fig 4
+    cout<<"\n";
+    for(i=1;i<=n;i++)//fig 3
+    {
+        for(j=1;j<=i-1;j++)
+        {
+            cout<<" ";
+        }
+        for(j=i;j<=n;j++)
+        {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }//end of fig 3
+}

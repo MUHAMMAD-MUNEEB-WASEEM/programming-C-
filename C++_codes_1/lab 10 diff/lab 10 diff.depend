@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1563419326 source:c:\users\abc\desktop\codeblocks\lab 10 diff\main.cpp
+	<iostream>
+	<string>
+	<sstream>
+
